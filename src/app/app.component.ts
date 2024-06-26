@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'tutor';
+
+  subject_list = [
+    "Chemistry", "Biology", "Pre-Algebra", "Algebra 1", "Algebra 2", "Pre-Calculus", "Calculus A/B", "Calculus B/C", 
+    "Computer Science", "General Homework", "European History"
+  ]
 }
